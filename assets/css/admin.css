@@ -1,0 +1,50 @@
+#pinpoint_option,
+#catpoint_pick,
+#choice-insert-lists,
+#choice-insert-livemaps,
+#list_search {
+	display: none;
+}
+
+#textbox_livemaps {
+	width: 400px;
+}
+
+.tinymcewemapdialog.tinymcewemapdialogs {
+	z-index: 100000;
+}
+
+#TB_window {
+	overflow-y: hidden;
+}
+#TB_ajaxContent {
+    width: 100% !important;
+    height: calc(100% - 30px) !important;
+    box-sizing: border-box;
+}
+
+#button-add-pp {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+#checkbox-add-pp {
+	pointer-events: none;	
+}
+
+#preview_pp {
+	float: right;
+}
+
+#pinpoint_display {
+	overflow: hidden;
+}
+
+.label
+{
+	display: block;
+	width: 80px;
+	float: left;
+}
